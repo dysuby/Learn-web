@@ -1,0 +1,111 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-image: url("pattern.png");
+  overflow-x: hidden; /*去除了水平上的滚动条*/
+}
+
+h1 {
+  font-size: 50pt;
+  margin-bottom: 20px;
+  color: cadetblue;
+}
+
+div{
+  text-align: center;
+}
+
+#whole {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 1000px;
+}
+
+#display {
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 25pt;
+  text-align: right;
+  word-wrap: break-word;
+}
+
+#container {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  width: 500px;
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  overflow: -webkit-paged-y; /*这个在chrome下才有效。。我也不知道是什么操作，搜都搜不到*/
+}
+
+.displayError{
+  color: rgb(255, 0, 0);
+  opacity: 0.5;
+}
+
+button[value="CE"] {
+  background-color: rgba(255, 141, 0, 0.7);
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 30pt;
+  font-family: inherit;
+  border-radius: 20%;
+  opacity: 0.7;
+  outline: none;
+  border: none;
+  -webkit-transition: all 0.1s 0.05s;
+  -moz-transition: all 0.1s 0.05s;
+  -o-transition: all 0.1s 0.05s;
+  transition: all 0.1s 0.05s;
+}
+
+button:hover {
+  opacity: 1;
+  -webkit-transition: all 0.1s 0s;
+  -moz-transition: all 0.1s 0s;
+  -o-transition: all 0.1s 0s;
+  transition: all 0.1s 0s;
+}
+
+.digit {
+  background-color: rgba(178, 225, 228, 0.5);
+}
+
+.digit:hover {
+  background-color: rgba(178, 225, 228, 0.7);
+}
+
+.func {
+  background-color: rgba(255, 141, 0, 0.35);
+}
+
+.func:hover {
+  background-color: rgba(255, 141, 0, 0.6);
+}
+
+.digit:active {
+  background-color: rgba(178, 225, 228, 1);
+}
+
+.func:active {
+  background-color: rgba(255, 141, 0, 0.8);
+}
+
+button[value="CE"]:hover {
+ background-color: rgba(255, 141, 0, 0.7);
+}
+
+button[value="CE"]:active {
+  background-color: rgba(255, 141, 0, 0.9);
+}
