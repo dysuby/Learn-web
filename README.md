@@ -20,8 +20,8 @@
 ![Sign Up](./signUp/screenshot.png)
 注册+详情
 
-![asyncProgram](./asyncProgram/sreenshot.png)
+![asyncProgram](./asyncProgram/screenshot.png)
 异步小游戏（S1~S5单独）
 
-![SignIn](./signIn/screenshot/screenshot.png)
+![SignIn](./SignIn/screenshot/screenshot.png)
 完整的用户登录应用（Express+MongoDB）
