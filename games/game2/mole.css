@@ -1,0 +1,119 @@
+body {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 80%;
+  height: 100%;
+  font-family: "Century Gothic", Futura, Verdana, sans-serif;
+  font-size: 20pt;
+  min-width: 800px;
+  overflow-x: auto;
+}
+
+#introduction {
+  margin-bottom: 20px;
+}
+
+#game {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 230px;
+}
+
+#left {
+  float: left;
+  margin-left: 35%;
+}
+
+#se {
+  background-color: white;
+  border: 1px gray solid;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+#se:hover {
+  box-shadow: 0px 0px 0.1em #2196f3;
+}
+
+#se:active {
+  box-shadow: -1px -1px 0.2em #2196f3;
+}
+
+#se:focus {
+  outline: none;
+}
+
+#status {
+  height: 25px;
+  width: 150px;
+  border-left: 1px gray solid;
+  border-bottom: 1px gray solid;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 13pt;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+#right {
+  float: left;
+  margin-left: 5%;
+}
+
+#scorebar {
+  margin-top: 5px;
+}
+
+#mole {
+  float: left;
+  clear: left;
+  margin-left: 40%;
+  margin-top: 1%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+#instructions {
+  font-size: 15pt;
+  font-weight: bold;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  text-align: left;
+}
+
+ol {
+  font-size: 13pt;
+  font-weight: normal;
+}
+
+.boxes {
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 5px;
+  float: left;
+}
+
+.blueBox {
+  box-shadow: 0 0 0.05em 0.1em #2196f3 inset;
+}
+
+#map {
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+#timeLeft, #score {
+  display: inline-block;
+  width: 40px;
+}
